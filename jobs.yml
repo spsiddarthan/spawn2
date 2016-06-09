@@ -7,5 +7,5 @@ jobs:
   - name: job2
     type: dclDeploy
     steps:
-      - GET job2345678
+      - GET job1
       - GET second
