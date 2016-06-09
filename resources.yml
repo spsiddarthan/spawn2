@@ -3,7 +3,7 @@ resources:
     type: image
     integration: docker-int 
     source:
-      name: "siddarthan/centos-node-hello:latest"
+      name: "siddarthan/centos-node-hello"
       isPull: false
       tag: latest
 
@@ -11,6 +11,6 @@ resources:
     type: dclCluster
     integration: siddarthan-dcl
     source:
-     name : "sid-dcl"
+     name : "sid-dcl-1"
 
  
