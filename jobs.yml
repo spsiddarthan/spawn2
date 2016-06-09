@@ -1,10 +1,10 @@
 jobs:
-  - name: job2345678
+  - name: job1
     type: manifest
     steps:
       - GET myimage1
 
-  - name: job324
+  - name: job2
     type: dclDeploy
     steps:
       - GET job2345678
