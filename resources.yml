@@ -11,6 +11,6 @@ resources:
     type: dclCluster
     integration: siddarthan-dcl
     source:
-     name : "sid-dcl-12"
+     name : "sid-dcl-12-12"
 
  
