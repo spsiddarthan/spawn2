@@ -1,5 +1,5 @@
 jobs:
-  - name: job12
+  - name: job123
     type: manifest
     steps:
       - GET myimage1
@@ -7,5 +7,5 @@ jobs:
   - name: job2
     type: dclDeploy
     steps:
-      - GET job12
+      - GET job123
       - GET second
