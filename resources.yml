@@ -11,6 +11,6 @@ resources:
     type: dclCluster
     integration: sid-dcl
     source:
-     name : "sid-dcl-12-12"
+     name : "docker-cloud-node"
 
  
