@@ -9,7 +9,7 @@ resources:
 
   - name: second
     type: dclCluster
-    integration: siddarthan-dcl
+    integration: sid-dcl
     source:
      name : "sid-dcl-12-12"
 
