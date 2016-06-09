@@ -5,7 +5,7 @@ jobs:
       - GET myimage1
 
   - name: job324
-    type: ecsDeploy
+    type: dclDeploy
     steps:
       - GET job2345678
       - GET second
