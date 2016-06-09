@@ -8,10 +8,9 @@ resources:
       tag: latest
 
   - name: second
-    type: ecsCluster
-    integration: siddarthan
+    type: dclCluster
+    integration: siddarthan-dcl
     source:
-     name : "default"
-     region: "us-west-2"
+     name : "sid-dcl"
 
  
