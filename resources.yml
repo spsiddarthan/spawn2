@@ -3,7 +3,7 @@ resources:
     type: image
     integration: docker-int 
     source:
-      name: "siddarthan/centos-node-hello"
+      name: "yeasy/simple-web"
       isPull: false
       tag: latest
       
