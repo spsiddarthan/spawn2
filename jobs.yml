@@ -3,6 +3,7 @@ jobs:
     type: manifest
     steps:
       - GET myimage1
+      - GET myimage2
 
   - name: job2
     type: dclDeploy
