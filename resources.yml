@@ -3,7 +3,7 @@ resources:
     type: image
     integration: docker-int 
     source:
-      name: "nginx"
+      name: "yeasy/simple-web"
       isPull: false
       tag: latest
 
