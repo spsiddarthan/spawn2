@@ -6,18 +6,10 @@ resources:
       name: "siddarthan/centos-node-hello"
       isPull: false
       tag: latest
-      
-  - name: myimage2
-    type: image
-    integration: docker-int 
-    source:
-      name: "nginx"
-      isPull: false
-      tag: latest      
 
   - name: second
-    type: dclCluster
-    integration: sid-dcl
+    type: ecsCluster
+    integration: siddarthan
     source:
      name : "docker-cloud-node"
 
