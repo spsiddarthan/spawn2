@@ -11,6 +11,6 @@ resources:
     type: ecsCluster
     integration: siddarthan
     source:
-     name : "docker-cloud-node"
+     name : "default"
 
  
