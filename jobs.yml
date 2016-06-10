@@ -1,12 +1,12 @@
 jobs:
-  - name: job12356
+  - name: job-sid-1
     type: manifest
     steps:
       - GET myimage1
       - GET myimage2
 
-  - name: job2
+  - name: job-sid-2
     type: dclDeploy
     steps:
-      - GET job12356
+      - GET job-sid-1
       - GET second
