@@ -1,5 +1,5 @@
 jobs:
-  - name: job123567
+  - name: job1-sid
     type: manifest
     steps:
       - GET myimage1
@@ -7,5 +7,5 @@ jobs:
   - name: job2
     type: ecsDeploy
     steps:
-      - GET job123567
+      - GET job1-sid
       - GET second
