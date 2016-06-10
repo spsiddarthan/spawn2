@@ -2,10 +2,10 @@ jobs:
   - name: image-job-1
     type: manifest
     steps:
-      - GET image-res
+      - GET image-res-1
 
   - name: image-job-2
     type: ecsDeploy
     steps:
       - GET image-job-1
-      - GET cluster-res
+      - GET cluster-res-1
