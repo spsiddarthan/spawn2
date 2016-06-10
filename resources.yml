@@ -12,5 +12,6 @@ resources:
     integration: siddarthan
     source:
      name : "default"
+     region: "us-west-2"
 
  
