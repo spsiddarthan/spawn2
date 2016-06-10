@@ -1,11 +1,11 @@
 jobs:
-  - name: papercup1
+  - name: myjob1
     type: manifest
     steps:
       - GET myimage11
 
-  - name: papercup2
+  - name: myjob2
     type: ecsDeploy
     steps:
-      - GET papercup1
+      - GET myjob1
       - GET second-1
