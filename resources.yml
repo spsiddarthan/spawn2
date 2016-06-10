@@ -1,5 +1,5 @@
 resources:
-  - name: myimage1
+  - name: image-res
     type: image
     integration: docker-int 
     source:
@@ -7,10 +7,11 @@ resources:
       isPull: false
       tag: latest
 
-  - name: second
+  - name: cluster-res
     type: ecsCluster
     integration: siddarthan
     source:
-     name : "docker-cloud-node"
+      name : "default"
+      region: "us-west-2"
 
  
